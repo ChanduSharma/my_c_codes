@@ -10,15 +10,15 @@ int main(int argc, char **argv)
 	int len = sizeof(a)/sizeof(a[0]);
 	int i;
 	
-	printf("The elements of the array before heap sort.\n");
+	printf("The elements of the array before quicksort.\n");
 	for (i = 0; i < len; i++) {
 		printf("%d\n",a[i]);
 	}
 	
-	printf("Initiating heap sort on array\n");
+	printf("Initiating quicksort on array\n");
 	quicksort(a,0,len-1);
 	
-	printf("The elements of the array after heap sort.\n");
+	printf("The elements of the array after quicksort.\n");
 	for (i = 0; i < len; i++) {
 		printf("%d\n",a[i]);
 	}
